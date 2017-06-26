@@ -11,10 +11,9 @@ Para la desambiguacion entre PGP, GPG y OpenPGP leer esto. El resumen es que:
     **GPG** es un sofware (un programa) que permite usar ambos standars (cifrar, descifrar, gestionar claves, etc). Existe una      verison grafica y otra de linea de comandos.
 
 El resumen de lo que necesitamos instalar en nuestro equipo es:
-
-    * Thunderbird
-    * GnuPG que es lo mismo que GPG: si tienes linux tienes que instalar el paquete gnupg2 (necesitas la version 2, con la uno enigmail no funciona): en Ubuntu suele estar el gestor de software, tambien puedes hacer “apt-get install gnupg2” en la terminal;  y si tienes windows te descargas el ejecutable de gpg4win y lo instalas.
-    * Añadir el plugin Enigmail (ver como instalar plugins en enigmail)
+    * **Thunderbird**
+    * **GnuPG** que es lo mismo que GPG: si tienes linux tienes que instalar el paquete gnupg2 (necesitas la version 2, con la uno enigmail no funciona): en Ubuntu suele estar el gestor de software, tambien puedes hacer “apt-get install gnupg2” en la terminal;  y si tienes windows te descargas el ejecutable de gpg4win y lo instalas.
+    * Añadir el plugin **Enigmail** (ver como instalar plugins en enigmail)
 
 Bien, pues ahora lo que tiene que pasar es que Enigmail reconozca que has instalado GPG. En Windows, a veces, si no lo reconoce tienes que indicarle la ruta donde esta la aplicacion (En mi caso en C:\Program Files\GNU\GnuPG\gpg2). En Ubuntu, siempre vas a tener intalada la version uno de GPG por defento, viene con el sistema, entonces asegurate de intalar la version dos, que es la que te permite usar enigmail: gnupg2; Una vez instalada enigmail ya no suele dar problemas. Vamos a comprobarlo.
 
@@ -36,7 +35,7 @@ Cosas a tener en cuenta:
 
 -> Teniendo una clave publica de alguien no se puede derivar, averiguar, su clave privada asociada (por eso es seguro enviarla o hacerla pública). Es computacionalmente muy dificil, requeriria ordenadores haciendo operaciones durante miles de años. Esto tiene que ver con el algoritmo que se usa para generar las claves: en el están presentes numeros primos y la dificultad radica en la dificultad “computacional” de factorizar numeros primos. El algoritmo que se usa en la actulidad se llama RSA con una longitud de clave de 1024 o 2028 bits. Sí, esto tiene que ver mucho con las matematicas, si te interesa saber como funciona este tipo de algoritmos tan molones puedes leer por ejemplo esto.
 
-serveimage
+![WTF](http://martuandgeeks.net/wp-content/uploads/2016/07/serveimage.gif)
 
 Vale, ahora que ya sabemos que queremos hacer vamos a generarnos ese par de claves tan molones asociados a nuestra persona (o identidad), normalmente estan asociados un mail. Para generarlas solo hay seguir las instrucciones básicas de enigmail, sigueinte, siguiente… si hay dudas aquí se puede ver el proceso aquí en el apartado 4.2.1.
 
