@@ -39,7 +39,7 @@ Cosas a tener en cuenta:
 
 ![grafico](https://raw.githubusercontent.com/m4rtu/How_to/master/imagenes/gpg/serveimage.gif)
 
-Vale, ahora que ya sabemos que queremos hacer vamos a generarnos ese par de claves tan molones asociados a nuestra persona (o identidad), normalmente estan asociados un mail. Para generarlas solo hay seguir las instrucciones básicas de enigmail, sigueinte, siguiente… si hay dudas aquí se puede ver el proceso aquí en el apartado 4.2.1.
+Vale, ahora que ya sabemos que queremos hacer vamos a generarnos ese par de claves tan molones asociados a nuestra persona (o identidad), normalmente estan asociados un mail. Para generarlas solo hay seguir las instrucciones básicas de enigmail, sigueinte, siguiente… si hay dudas aquí se puede ver el proceso aquí [enlace](https://securityinabox.org/es/guide/thunderbird/windows/#usar-enigmail-con-gnupg-en-thunderbird) en el apartado 4.2.1.
 
 Ok, pues ahora que ya tienes tu par de claves tienes que pedir a las personas con las que te quieras comunicar su clave publica y tu les tienes que enviar la tuya. ¿Como?Pues te vas a redactar un mensaje a una de tus colegas y le das a “adjuntar clave publica” como se ve en la imagen y ya te la adjunta:
 
