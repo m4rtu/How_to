@@ -12,9 +12,10 @@ Para la desambiguacion entre PGP, GPG y OpenPGP leer esto. El resumen es que:
 *   **GPG** es un sofware (un programa) que permite usar ambos standars (cifrar, descifrar, gestionar claves, etc). Existe una      verison grafica y otra de linea de comandos.
 
 El resumen de lo que necesitamos instalar en nuestro equipo es:
-    * **Thunderbird**
-    * **GnuPG** que es lo mismo que GPG: si tienes linux tienes que instalar el paquete **gnupg2** (necesitas la version 2, con la uno enigmail no funciona): en Ubuntu suele estar el gestor de software, tambien puedes hacer “apt-get install gnupg2” en la terminal;  y si tienes windows te descargas el ejecutable de **gpg4win** y lo instalas.
-    * Añadir el plugin **Enigmail** (ver como instalar plugins en enigmail)
+
+* **Thunderbird**
+* **GnuPG** que es lo mismo que GPG: si tienes linux tienes que instalar el paquete **gnupg2** (necesitas la version 2, con la uno enigmail no funciona): en Ubuntu suele estar el gestor de software, tambien puedes hacer “apt-get install gnupg2” en la terminal;  y si tienes windows te descargas el ejecutable de **gpg4win** y lo instalas.
+* Añadir el plugin **Enigmail** (ver como instalar plugins en enigmail)
 
 Bien, pues ahora lo que tiene que pasar es que Enigmail reconozca que has instalado GPG. En Windows, a veces, si no lo reconoce tienes que indicarle la ruta donde esta la aplicacion (En mi caso en C:\Program Files\GNU\GnuPG\gpg2). En Ubuntu, siempre vas a tener intalada la version uno de GPG por defento, viene con el sistema, entonces asegurate de intalar la version dos, que es la que te permite usar enigmail: gnupg2; Una vez instalada enigmail ya no suele dar problemas. Vamos a comprobarlo.
 
