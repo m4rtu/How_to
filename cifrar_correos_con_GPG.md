@@ -43,7 +43,7 @@ Vale, ahora que ya sabemos que queremos hacer vamos a generarnos ese par de clav
 
 Ok, pues ahora que ya tienes tu par de claves tienes que pedir a las personas con las que te quieras comunicar su clave publica y tu les tienes que enviar la tuya. ¿Como?Pues te vas a redactar un mensaje a una de tus colegas y le das a “adjuntar clave publica” como se ve en la imagen y ya te la adjunta:
 
-![WTF] (https://github.com/m4rtu/How_to/blob/master/imagenes/gpg/VirtualBox_windows-8.1-pro_15_07_2016_14_10_37-1.png?raw=true)
+![WTF] (https://raw.githubusercontent.com/m4rtu/How_to/master/imagenes/gpg/VirtualBox_windows-8.1-pro_15_07_2016_14_10_37-1.png)
 
 Puedes ver que **la clave es solo un archivo de texto** con extensión .asc (tambien hay otras extensiones). Ahora pide a tus amigas que hagan lo mismo y te la manden la suya.
 
