@@ -35,23 +35,23 @@ Cosas a tener en cuenta:
 
 -> **Un par de claves siempre esta asociado a una unica persona, identidad o entidad**.
 
--> **Teniendo una clave publica de alguien no se puede derivar, averiguar, su clave privada asociada (por eso es seguro enviarla o hacerla pública)**. Es computacionalmente muy dificil, requeriria ordenadores haciendo operaciones durante miles de años. Esto tiene que ver con el algoritmo que se usa para generar las claves: en el están presentes numeros primos y la dificultad radica en la dificultad “computacional” de factorizar numeros primos. El algoritmo que se usa en la actulidad se llama RSA con una longitud de clave de 1024 o 2028 bits. Sí, esto tiene que ver mucho con las matematicas, si te interesa saber como funciona este tipo de algoritmos tan molones puedes leer por ejemplo esto.
+-> **Teniendo una clave publica de alguien no se puede derivar, averiguar, su clave privada asociada (por eso es seguro enviarla o hacerla pública)**. Es computacionalmente muy dificil, requeriria ordenadores haciendo operaciones durante miles de años. Esto tiene que ver con el algoritmo que se usa para generar las claves: en el están presentes numeros primos y la dificultad radica en la dificultad “computacional” de factorizar numeros primos. El algoritmo que se usa en la actulidad se llama RSA con una longitud de clave de 1024 o 2028 bits. Sí, esto tiene que ver mucho con las matematicas, si te interesa saber como funciona este tipo de algoritmos tan molones puedes leer por ejemplo esto [enlace](https://seguinfo.wordpress.com/2007/09/14/%C2%BFque-es-rsa/).
 
-![WTF](http://martuandgeeks.net/wp-content/uploads/2016/07/serveimage.gif)
+![grafico](https://raw.githubusercontent.com/m4rtu/How_to/master/imagenes/gpg/serveimage.gif)
 
 Vale, ahora que ya sabemos que queremos hacer vamos a generarnos ese par de claves tan molones asociados a nuestra persona (o identidad), normalmente estan asociados un mail. Para generarlas solo hay seguir las instrucciones básicas de enigmail, sigueinte, siguiente… si hay dudas aquí se puede ver el proceso aquí en el apartado 4.2.1.
 
 Ok, pues ahora que ya tienes tu par de claves tienes que pedir a las personas con las que te quieras comunicar su clave publica y tu les tienes que enviar la tuya. ¿Como?Pues te vas a redactar un mensaje a una de tus colegas y le das a “adjuntar clave publica” como se ve en la imagen y ya te la adjunta:
 
-![WTF](https://raw.githubusercontent.com/m4rtu/How_to/master/imagenes/gpg/VirtualBox_windows-8.1-pro_15_07_2016_14_10_37-1.png)
+![grafico](https://raw.githubusercontent.com/m4rtu/How_to/master/imagenes/gpg/VirtualBox_windows-8.1-pro_15_07_2016_14_10_37-1.png)
 
 Puedes ver que **la clave es solo un archivo de texto** con extensión .asc (tambien hay otras extensiones). Ahora pide a tus amigas que hagan lo mismo y te la manden la suya.
 
 Una vez teneis las claves de vuestras colegas hay que **importarlas**, es decir, meterlas en el gestor de claves de enigmail: Opciones>Enigmail>Administracion de claves> Archivo> Importar claves desde un fichero
 
-VirtualBox_windows 8.1 pro_15_07_2016_14_20_37 
+![grafico](https://raw.githubusercontent.com/m4rtu/How_to/master/imagenes/gpg/VirtualBox_windows-8.1-pro_15_07_2016_14_20_37.png )
 
-VirtualBox_windows 8.1 pro_15_07_2016_14_21_25
+![grafico](https://raw.githubusercontent.com/m4rtu/How_to/master/imagenes/gpg/VirtualBox_windows-8.1-pro_15_07_2016_14_21_25.png )
 
 Ahora ya tendrias todo lo necesario para cifrar y firmar!
 
