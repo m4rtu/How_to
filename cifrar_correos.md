@@ -6,9 +6,10 @@ Este va a intentar ser un post para despejar las dudas sobre como cifrar mails c
 Concretamente voy a explicar como hacerlo con el cliente de correo Thunderbird y con su plugin Enigmail, que es el que permite integrar OpenPGP (un estandar de cifrado) en Thunderbird. Pero tambien necesitas un programa en tu equipo que implemente OpenPGP, éste es GPG (“Gnu Privacy Guard”). El paquete de linux es gnupg2 y para windows tenemos gpg4win (tambien hay uno para mac pero no me lo se).
 
 Para la desambiguacion entre PGP, GPG y OpenPGP leer esto. El resumen es que:
-    **PGP** es un estandar de cifrado privativo.
-    **OpenPGP** es un estandar de cifrado de software libre basado en PGP.
-    **GPG** es un sofware (un programa) que permite usar ambos standars (cifrar, descifrar, gestionar claves, etc). Existe una      verison grafica y otra de linea de comandos.
+
+*   **PGP** es un estandar de cifrado privativo.
+*   **OpenPGP** es un estandar de cifrado de software libre basado en PGP.
+*   **GPG** es un sofware (un programa) que permite usar ambos standars (cifrar, descifrar, gestionar claves, etc). Existe una      verison grafica y otra de linea de comandos.
 
 El resumen de lo que necesitamos instalar en nuestro equipo es:
     * **Thunderbird**
